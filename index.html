@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleepy coin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="header">
+                <div class="heading">
+                    <h2 class="mainheading">sleepy coin</h2>
+                    <h3 class="subheading">sleep more , earn more</h3>
+                </div>
+            </div>
+
+            <div class="main">
+                <p class="welcome-text">
+                    Welcome to Sleepy Coin<br>
+                    A dreamy new way to earn just by resting. Sleepy Coin rewards you for taking
+                    care of yourself — because Good sleep should be<br>
+                    priceless (or at least profitable).
+                </p>
+
+                <div class="content-area">
+                    <div class="content">
+                        <p class="work-btn btn" id="working">how it works ?</p>
+                        <div class="bg" work>
+                            <p class="working-content phone-width ">
+                                🛌1. Sleep Smart: Use our upcoming Sleepy app or connect your sleep tracker.<br>
+                                🪙2. Earn While You Rest: For every good night's sleep, you'll earn Sleepy Coins — effortlessly.<br>
+                                🌌3. Collect, Trade, Chill: Use your Sleepy Coins to collect NFTs, join giveaways, or trade on crypto platforms.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <p class="abtus-btn btn" id="about">about us</p>
+                        <div class="bg" abt>
+                            <p class="aboutUs-content phone-width">
+                                Sleepy Coin is a meme coin with a mission — turning rest into reward. We believe that in a world that moves too fast, slowing down should be valuable. Our cozy community is here to promote wellness, fun, and passive earning — all while you dream.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer with background -->
+            <div class="footer">
+                <div class="items">
+                    <p class="buttons icons">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/sleepy_coin/profilecard/?igsh=bXZlZG1oOXJnOWZy">Instagram</a>
+                    </p>
+                    <p class="buttons  icons">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:sleepycoinofficial@gmail.com">Contact us</a>
+                    </p>
+                </div>
+            </div>
+        
+    </div>
+
+    <script>
+        document.getElementById('working').addEventListener('click', () => {
+            document.querySelector('[work]').classList.toggle('work-active');
+        });
+        document.getElementById('about').addEventListener('click', () => {
+            document.querySelector('[abt]').classList.toggle('abt-active');
+        });
+    </script>
+</body>
+
+</html>
