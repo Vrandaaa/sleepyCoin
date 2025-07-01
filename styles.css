@@ -169,6 +169,7 @@
     max-height: 0;
     scale: 0;
     transition: max-height 0.5s;
+    overflow: hidden;
 }
 
 .working-content {
@@ -243,7 +244,7 @@ a i {
     body {
         position: absolute;
         min-height: 100vh;
-
+        overflow-y: hidden;
         /* background-color: ; */
     }
 
@@ -297,6 +298,9 @@ a i {
         width: 100%;
     }
 
+    .abt-content{
+        margin-bottom: 20px;
+    }
 
     .phone-width {
         width: 90%;
@@ -309,7 +313,7 @@ a i {
         align-items: center;
         justify-content: space-between;
         transform: translateX(20%);
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 400;
         /* position: absolute;
         bottom: 0; */
@@ -322,9 +326,18 @@ a i {
 
     .footer {
         padding: 10px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .footer-active{
+        margin-bottom: 0;
         position: relative;
+        padding: 10px;
     }
 
+    
 }
 
 @media (max-height: 830px) {

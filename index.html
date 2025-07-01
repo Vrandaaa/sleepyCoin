@@ -41,12 +41,13 @@
                         </div>
                     </div>
 
-                    <div class="content">
+                    <div class="content abt-content">
                         <p class="abtus-btn btn" id="about">about us</p>
                         <div class="bg" abt>
                             <p class="aboutUs-content phone-width">
                                 Sleepy Coin is a meme coin with a mission — turning rest into reward. We believe that in a world that moves too fast, slowing down should be valuable. Our cozy community is here to promote wellness, fun, and passive earning — all while you dream.
                             </p>
+
                         </div>
                     </div>
                 </div>
@@ -72,9 +73,11 @@
     <script>
         document.getElementById('working').addEventListener('click', () => {
             document.querySelector('[work]').classList.toggle('work-active');
+            document.querySelector('.footer').classList.toggle('footer-active');
         });
         document.getElementById('about').addEventListener('click', () => {
             document.querySelector('[abt]').classList.toggle('abt-active');
+            document.querySelector('.footer').classList.toggle('footer-active');
         });
     </script>
 </body>
